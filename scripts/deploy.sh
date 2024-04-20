@@ -2,4 +2,4 @@
 
 echo "directory: $(pwd)"
 
-cd ./backend
+cd ../backend
