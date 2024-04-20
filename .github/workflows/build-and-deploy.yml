@@ -25,11 +25,11 @@ jobs:
             ./scripts/deploy.sh
       
 
-      - name: Build Docker image
-        run: docker build -t prithvirajawatade/backend:latest .
+      # - name: Build Docker image
+      #   run: docker build -t prithvirajawatade/backend:latest .
 
-      - name: Push Docker image to Docker Hub
-        run: docker push prithvirajawatade/backend:latest
+      # - name: Push Docker image to Docker Hub
+      #   run: docker push prithvirajawatade/backend:latest
 
       # - name: Update Kubernetes Deployment
       #   run: kubectl set image deployment/your-deployment-name container-name=yourusername/yourimage:latest
