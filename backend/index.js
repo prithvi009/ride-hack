@@ -7,10 +7,9 @@ import AuthRoutes from "./routes/auth_routes.js";
 import ProductRoutes from "./routes/product_routes.js";
 import CartRoutes from "./routes/cart_routes.js";
 import LiveStreamRoutes from "./routes/live_stream_routes.js";
-import {connectDB} from "./ConnectDb/connect.js";
+import { connectDB } from "./ConnectDb/connect.js";
 
 dotenv.config();
-
 
 const app = express();
 
@@ -35,14 +34,10 @@ const upload = multer({ storage: storage });
 
 app.use("/images", express.static("./Upload/images"));
 
-
 app.use("/", AuthRoutes);
 app.use("/", ProductRoutes);
 app.use("/", CartRoutes);
 app.use("/", LiveStreamRoutes);
-
-
-
 
 const start = async () => {
   try {
