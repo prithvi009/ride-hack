@@ -20,7 +20,10 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       
       - name: nav to backend
-        run: cd backend
+        run: |
+            chmod +x ./scripts/deploy.sh
+            ./scripts/deploy.sh
+      
 
       - name: Build Docker image
         run: docker build -t prithvirajawatade/backend:latest .
