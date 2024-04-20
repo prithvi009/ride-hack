@@ -1,0 +1,19 @@
+{
+  "name": "ride-hack",
+  "version": "1.0.0",
+  "description": "## Introduction SkypeShop is an innovative platform that brings the excitement and engagement of offline shopping experiences into the digital realm. Imagine being able to shop online while enjoying the same interactive elements you would find in a physical store, such as live product demonstrations, limited edition auctions, polls, and rewards.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.1.0",
+    "eslint-plugin-react": "^7.34.1",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  }
+}
