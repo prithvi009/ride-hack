@@ -1,0 +1,52 @@
+.sidebar {
+    background-color: white;
+    width: 300px;
+    min-height: 150vh;
+}
+
+
+.addprod {
+    background-color: rgb(229, 225, 225);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.prodlist {
+    background-color: rgb(228, 225, 225);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.add {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list,
+.list2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list img {
+    margin-right: 40px;
+}
+
+.list2 img {
+    margin-right: 60px;
+}
+
+.list2 p {
+    margin-left: -10px;
+}
+
+.conatiner {
+    position: relative;
+    top: 50px
+}
