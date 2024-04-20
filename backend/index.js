@@ -1,9 +1,11 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+const multer = require("multer");
 
 require("dotenv").config();
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 app.use(express.json());
 app.use(cors());
@@ -26,11 +28,10 @@ const upload = multer({ storage: storage });
 app.use("/images", express.static("./Upload/images"));
 
 //if no url satisfied
-app.use(notfound);
+// app.use(notfound);
 
 const start = async () => {
   try {
-    await connectDB(process.env.MONGO_URI);
     app.listen(port, () => {
       console.log(`server is listening at ${port}`);
     });

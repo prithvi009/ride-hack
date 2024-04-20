@@ -17,7 +17,6 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "eslint": "^9.1.0",
     "husky": "^9.0.11",
     "prettier": "^3.2.5"
   },
