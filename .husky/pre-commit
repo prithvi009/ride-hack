@@ -1,23 +1,14 @@
 #!/bin/sh
 echo "Running ESLint and Prettier..."
 
-# echo "Checking frontend folder..."
-# cd frontend
-# npm run lint     
-# npm run format     
-# cd ..
-
-echo "Checking backend folder..."
-cd backend
-npm run lint      
+echo "Checking frontend folder..."
+cd frontend 
 npm run format     
 cd ..
 
-# # Livestream folder
-# echo "Checking livestream folder..."
-# cd livestream
-# npm run lint     
-# npm run format     
-# cd ..
+echo "Checking backend folder..."
+cd backend     
+npm run format     
+cd ..
 
 echo "Linting and formatting completed."
