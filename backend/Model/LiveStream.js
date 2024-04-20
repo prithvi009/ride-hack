@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const LiveStreamSchema = new mongoose.Schema({
   id: {
@@ -40,4 +40,6 @@ const LiveStreamSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("LiveStream", LiveStreamSchema);
+const LiveStream = mongoose.model("LiveStream", LiveStreamSchema);
+
+export default LiveStream;

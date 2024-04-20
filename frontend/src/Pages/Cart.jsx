@@ -1,15 +1,12 @@
-import React, { useContext } from 'react'
-import CartItem from '../Components/CartItem/CartItem'
+import React, { useContext } from "react";
+import CartItem from "../Components/CartItem/CartItem";
 
 const Cart = () => {
+  return (
+    <div cslassName="cart">
+      <CartItem />
+    </div>
+  );
+};
 
-    return (
-
-        <div cslassName='cart'>
-            <CartItem />
-
-        </div>
-    )
-}
-
-export { Cart }
+export { Cart };
