@@ -1,6 +1,6 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
-const UserInLive = new mongoose.Schema({
+const UserInLiveSchema = new mongoose.Schema({
   livename: {
     type: String,
     require: true,
@@ -16,4 +16,6 @@ const UserInLive = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("UserInLive", UserInLive);
+const UserInLive = mongoose.model("UserInLive", UserInLiveSchema);
+
+export default UserInLive;
