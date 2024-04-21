@@ -2,11 +2,14 @@ import React from "react";
 import "./LiveStream.css";
 import { useState } from "react";
 import { useEffect } from "react";
+
+
 const LiveStream = () => {
   const [live, setlive] = useState([]);
 
   const alllivestreams = async () => {
-    await fetch("http://localhost:5000/livestreams")
+    console.log(process.env.REACT_APP_API_URL)
+    await fetch(`${process.env.REACT_APP_API_URL}/livestreams`)
       .then((Response) => {
         if (!Response.ok) {
           throw new Error("Unable to fetch livestreams");

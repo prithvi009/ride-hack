@@ -5,6 +5,7 @@ import "./index.css";
 import ShopState from "./Context/ShopContext/ShopState";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <ShopState>
     <App />
