@@ -144,7 +144,28 @@ const Golive = () => {
                     </label>
                     <input type='file' name='product' id='imagefile' hidden onChange={imagehandler}></input>
                 </div>
+                
+                <div className="polltitles">
+                    <p>Enter Options  For Poll</p>
+                    <input type='text' name='op1' placeholder='Enter Product name' onChange={handleop} ></input>
+                </div>
 
+                <div className="polltitles">
+                    <input type='text' name='op2' placeholder='Enter Product name' onChange={handleop}></input>
+                </div>
+
+                <div className="polltitles">
+                    <input type='text' name='op3' placeholder='Enter Product name' onChange={handleop} ></input>
+                </div>
+
+                <div className="polltitles">
+                    <input type='text' name='op4' placeholder='Enter Product name' onChange={handleop} ></input>
+                </div>
+
+
+                <div className="polltitles">
+                    <input type='text' name='name' placeholder='Enter Product name' onChange={handleop}></input>
+                </div>
 
                 
 
