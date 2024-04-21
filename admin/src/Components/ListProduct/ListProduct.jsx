@@ -6,7 +6,7 @@ const ListProduct = () => {
     const [Products, setproducts] = useState([]);
     console.log("me1")
     const allproducts = async () => {
-        await fetch('http://localhost:5000').then((response) => {
+        await fetch(`${process.env.REACT_APP_API_URL}`).then((response) => {
             if (!response.ok) throw new Error('Failed to upload image');
             return response.json();
         }).then((data) => {
@@ -21,7 +21,7 @@ const ListProduct = () => {
         };
         obj.id = id;
 
-        await fetch('http://localhost:5000/removeproduct', {
+        await fetch(`${process.env.REACT_APP_API_URL}/removeproduct`, {
             method: 'POST',
             headers: {
                 Accept: 'application/json',
