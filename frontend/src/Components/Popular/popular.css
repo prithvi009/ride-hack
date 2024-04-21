@@ -1,10 +1,14 @@
+.popular_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
 .popular {
     display: flex;
     justify-content: center;
-}
-
-.pops {
-    margin-bottom: 70px;
 }
 
 .popular h1 {
@@ -19,12 +23,4 @@
     background: black;
     margin-left: 100px;
     margin-right: 25px;
-}
-
-.collections {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
-    gap: 30px;
-    margin-left: 110px;
 }
