@@ -6,7 +6,7 @@ SkypeShop is an innovative platform that brings the excitement and engagement of
 ## Features
 
 ### Live Shopping
-SkypeShop offers users the opportunity to participate in live shopping events where sellers showcase their products in real-time. This immersive experience allows customers to interact with sellers, ask questions, and make purchases instantly.
+SkypeShop offers users the opportunity to participate in live shopping events where sellers showcase their products in real-time. This immersive experience allows customers to interact with sellers, ask questions, and make purchases instantly from the app itself.
 
 ### Marketplace
 Our platform serves as a marketplace for sellers to showcase and sell their products. Whether you're a small business owner or a major retailer, SkypeShop provides a dynamic platform to reach a wide audience and engage with potential customers directly.
